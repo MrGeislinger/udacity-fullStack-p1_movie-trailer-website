@@ -39,34 +39,6 @@ movies = [
 		5
 	),
 	Movie(
-		'Indiana Jones and the Kingdom of the Crystal Skull',
-		('http://ia.media-imdb.com/images/M/MV5BMTIxNDUxNzcyMl5BMl5BanBnXkFtZT'
-			'cwNTgwOTI3MQ@@._V1_SY317_CR0,0,214,317_AL_.jpg'),
-		'https://www.youtu.be/nMhfESAa4tw',
-		'''
-			Famed archaeologist/adventurer Dr. Henry "Indiana" Jones is called 
-			back into action when he becomes entangled in a Soviet plot to 
-			uncover the secret behind mysterious artifacts known as the Crystal 
-			Skulls.
-		''',
-		1
-	),
-	Movie(
-		'The Martian',
-		('http://ia.media-imdb.com/images/M/MV5BMTc2MTQ3MDA1Nl5BMl5BanBnXkFtZT'
-			'gwODA3OTI4NjE@._V1_SY317_CR0,0,214,317_AL_.jpg'),
-		'https://www.youtu.be/ej3ioOneTy8',
-		'''
-			During a manned mission to Mars, Astronaut Mark Watney is presumed 
-			dead after a fierce storm and left behind by his crew. But Watney 
-			has survived and finds himself stranded and alone on the hostile 
-			planet. With only meager supplies, he must draw upon his ingenuity, 
-			wit and spirit to subsist and find a way to signal to Earth that he 
-			is alive.
-		''',
-		3
-	),
-	Movie(
 		'Back to the Future',
 		('http://ia.media-imdb.com/images/M/MV5BMjA5NTYzMDMyM15BMl5BanBnXkFtZT'
 			'gwNjU3NDU2MTE@._V1_SX214_AL_.jpg'),
@@ -102,5 +74,33 @@ movies = [
 			time to save his friend.
 		''',
 		2
+	),	
+	Movie(
+		'Indiana Jones and the Kingdom of the Crystal Skull',
+		('http://ia.media-imdb.com/images/M/MV5BMTIxNDUxNzcyMl5BMl5BanBnXkFtZT'
+			'cwNTgwOTI3MQ@@._V1_SY317_CR0,0,214,317_AL_.jpg'),
+		'https://www.youtu.be/nMhfESAa4tw',
+		'''
+			Famed archaeologist/adventurer Dr. Henry "Indiana" Jones is called 
+			back into action when he becomes entangled in a Soviet plot to 
+			uncover the secret behind mysterious artifacts known as the Crystal 
+			Skulls.
+		''',
+		1
+	),
+	Movie(
+		'The Martian',
+		('http://ia.media-imdb.com/images/M/MV5BMTc2MTQ3MDA1Nl5BMl5BanBnXkFtZT'
+			'gwODA3OTI4NjE@._V1_SY317_CR0,0,214,317_AL_.jpg'),
+		'https://www.youtu.be/ej3ioOneTy8',
+		'''
+			During a manned mission to Mars, Astronaut Mark Watney is presumed 
+			dead after a fierce storm and left behind by his crew. But Watney 
+			has survived and finds himself stranded and alone on the hostile 
+			planet. With only meager supplies, he must draw upon his ingenuity, 
+			wit and spirit to subsist and find a way to signal to Earth that he 
+			is alive.
+		''',
+		3
 	)
 ]
