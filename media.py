@@ -3,13 +3,14 @@ class Movie(object):
 	   rating, etc.)
 	'''
 
-	def __init__(self,title,posterUrl,trailerId,rating):
+	def __init__(self,title,posterUrl,trailerId,description=None,rating=None):
 		#Required instance variables
 		self.title = title
 		self.poster_image_url = posterUrl
 		self.trailer_youtube_url = trailerId
 		#Optional instance variables
 		self.rating = rating #Defaults to None
+		self.description = description #Defaults to None
 
 
 	#Getters
@@ -31,8 +32,8 @@ class Movie(object):
 	    return self._rating
 
 	@property
-	def test(self):
-	    return self._test
+	def description(self):
+	    return self._description
 	
 
 	#Setters
@@ -68,5 +69,15 @@ class Movie(object):
 		if isinstance(rating, int) and rating >= 0 and rating <= 5:
 			self._rating = rating
 		else:
+			self._rating = None
 			print ("That is not a proper number (positive integer less than or"
 				   "equal to 5). Variable not set.")
+
+	@description.setter
+	def description(self,description):
+		#Check that the description is always a string (unicode is OK)
+		if isinstance(description, basestring): 
+			self._description = description
+		else:
+			self._description = None
+			print "That is not a string. Variable not set."
