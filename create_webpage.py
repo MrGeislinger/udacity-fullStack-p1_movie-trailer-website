@@ -147,7 +147,7 @@ def create_movie_tiles_content(movies):
             r'(?<=be/)[^&#]+', movie.trailer_youtube_url)
         trailer_youtube_id = (youtube_id_match.group(0) if youtube_id_match
                               else None)
-    
+
         # Change number of stars based on rating
         rating_star_icon = 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Gold_Star.svg/2000px-Gold_Star.svg.png'
         movie_rating_html  = '<img style="width:30px;" src="' + rating_star_icon + '"/>'
@@ -175,7 +175,7 @@ def open_movies_page(movies):
     output_file.write(main_page_head + rendered_content)
     output_file.close()
 
-    # open the output file in the browser (in a new tab, if possible)
+    # Open the output file in the browser (in a new tab, if possible)
     url = os.path.abspath(output_file.name)
     webbrowser.open('file://' + url, new=2)
 

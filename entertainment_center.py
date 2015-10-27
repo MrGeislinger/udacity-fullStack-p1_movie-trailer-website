@@ -1,7 +1,7 @@
-from media import Movie 
+from media import Movie
 
 
-#Defining the movies
+# Defining the movies
 movies = [
 	Movie(
 		'Finding Nemo',
@@ -9,7 +9,7 @@ movies = [
 			'cwMjg1MDI5Nw@@._V1_SY317_CR0,0,214,317_AL_.jpg'),
 		'https://youtu.be/SPHfeNgogVs',
 		'''
-			After his son is captured in the Great Barrier Reef and taken to 
+			After his son is captured in the Great Barrier Reef and taken to
 			Sydney, a timid clownfish sets out on a journey to bring him home.
 		''',
 		5
@@ -20,7 +20,7 @@ movies = [
 			'Ride-Along-Poster.jpg'),
 		'https://www.youtu.be/5klp6rkHIks',
 		'''
-			Security guard Ben must prove himself to his girlfriend's brother, 
+			Security guard Ben must prove himself to his girlfriend's brother,
 			top cop James. He rides along James on a 24-hour patrol of Atlanta.
 		''',
 		3
@@ -44,9 +44,9 @@ movies = [
 			'gwNjU3NDU2MTE@._V1_SX214_AL_.jpg'),
 		'https://www.youtu.be/yosuvf7Unmg',
 		'''
-			A young man is accidentally sent 30 years into the past in a 
-			time-traveling DeLorean invented by his friend, Dr. Emmett Brown, 
-			and must make sure his high-school-age parents unite in order to 
+			A young man is accidentally sent 30 years into the past in a
+			time-traveling DeLorean invented by his friend, Dr. Emmett Brown,
+			and must make sure his high-school-age parents unite in order to
 			save his own existence.
 		''',
 		5
@@ -57,8 +57,8 @@ movies = [
 			'cwMjI3MzYwMg@@._V1_SY317_CR9,0,214,317_AL_.jpg'),
 		'https://www.youtu.be/MdENmefJRpw',
 		'''
-			After visiting 2015, Marty McFly must repeat his visit to 1955 to 
-			prevent disastrous changes to 1985... without interfering with his 
+			After visiting 2015, Marty McFly must repeat his visit to 1955 to
+			prevent disastrous changes to 1985... without interfering with his
 			first trip.
 		''',
 		4
@@ -69,21 +69,21 @@ movies = [
 			'cwODE3MzYwMg@@._V1_SY317_CR9,0,214,317_AL_.jpg'),
 		'https://www.youtu.be/3C8c3EoEfw4',
 		'''
-			Enjoying a peaceable existence in 1885, Doctor Emmet Brown is about 
+			Enjoying a peaceable existence in 1885, Doctor Emmet Brown is about
 			to be killed by Buford "Mad Dog" Tannen. Marty McFly travels back in
 			time to save his friend.
 		''',
 		2
-	),	
+	),
 	Movie(
 		'Indiana Jones and the Kingdom of the Crystal Skull',
 		('http://ia.media-imdb.com/images/M/MV5BMTIxNDUxNzcyMl5BMl5BanBnXkFtZT'
 			'cwNTgwOTI3MQ@@._V1_SY317_CR0,0,214,317_AL_.jpg'),
 		'https://www.youtu.be/nMhfESAa4tw',
 		'''
-			Famed archaeologist/adventurer Dr. Henry "Indiana" Jones is called 
-			back into action when he becomes entangled in a Soviet plot to 
-			uncover the secret behind mysterious artifacts known as the Crystal 
+			Famed archaeologist/adventurer Dr. Henry "Indiana" Jones is called
+			back into action when he becomes entangled in a Soviet plot to
+			uncover the secret behind mysterious artifacts known as the Crystal
 			Skulls.
 		''',
 		1
@@ -94,11 +94,11 @@ movies = [
 			'gwODA3OTI4NjE@._V1_SY317_CR0,0,214,317_AL_.jpg'),
 		'https://www.youtu.be/ej3ioOneTy8',
 		'''
-			During a manned mission to Mars, Astronaut Mark Watney is presumed 
-			dead after a fierce storm and left behind by his crew. But Watney 
-			has survived and finds himself stranded and alone on the hostile 
-			planet. With only meager supplies, he must draw upon his ingenuity, 
-			wit and spirit to subsist and find a way to signal to Earth that he 
+			During a manned mission to Mars, Astronaut Mark Watney is presumed
+			dead after a fierce storm and left behind by his crew. But Watney
+			has survived and finds himself stranded and alone on the hostile
+			planet. With only meager supplies, he must draw upon his ingenuity,
+			wit and spirit to subsist and find a way to signal to Earth that he
 			is alive.
 		''',
 		3
