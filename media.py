@@ -9,8 +9,8 @@ class Movie(object):
 		self.poster_image_url = posterUrl
 		self.trailer_youtube_url = trailerId
 		# Optional instance variables
-		self.rating = rating #Defaults to None
-		self.description = description #Defaults to None
+		self.rating = rating # Defaults to None
+		self.description = description # Defaults to None
 
 
 	# Getters
