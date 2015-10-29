@@ -179,5 +179,5 @@ def open_movies_page(movies):
     url = os.path.abspath(output_file.name)
     webbrowser.open('file://' + url, new=2)
 
-#Create HTML file and open it in the browser from list of movies
+# Create HTML file and open it in the browser from list of movies
 open_movies_page(movies)
